@@ -1,0 +1,42 @@
+{
+  "version": "0.1.0",
+  "name": "koala",
+  "constants": [
+    {
+      "name": "TRANSFER_AMOUNT",
+      "type": "u64",
+      "value": "50000000"
+    },
+    {
+      "name": "RECIPIENT",
+      "type": "publicKey",
+      "value": "pubkey ! (\"9UgMeYVrWrG5fbjkHos4FShJfchUkXZgNo2CV68h8Mjq\")"
+    }
+  ],
+  "instructions": [
+    {
+      "name": "transferSol",
+      "accounts": [
+        {
+          "name": "user",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "recipient",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": []
+    }
+  ],
+  "metadata": {
+    "address": "72R1hcrPYWxWrhNFFLz4PT7RmUjkdh6BvwZDgUgzAbhZ"
+  }
+}

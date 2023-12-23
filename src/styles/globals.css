@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {  
+  font-family: EmerlandRegular;  
+  src: url('./font.ttf');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: EmerlandRegular !important;
+  background: rgba(14, 15, 19, 1);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* example: override wallet button style */
+.wallet-adapter-button:not([disabled]):hover {
+  background-color: #707070;
+}
+
+/* .index-bg{
+  position: relative;
+  img{
+    position: absolute;
+    left: 0;
+  }
+} */
+.navbar{
+  position: relative !important;
+  z-index: 999;
+}

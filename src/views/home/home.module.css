@@ -1,0 +1,53 @@
+.indexBg {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.indexBg .indexBgImage {
+  position: absolute;
+  width: 750px;
+  top: 0;
+}
+.indexBg .indexBgImage_T {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.indexBg .nftMintBox {
+  position: relative;
+  width: 400px;
+  height: 550px;
+  background: #333333;
+  border-radius: 30px 30px 30px 30px;
+  opacity: 1;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  padding: 50px 20px;
+  margin-right: 150px;
+}
+.indexBg .nftMintBox .nftImg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 156px;
+}
+.indexBg .nftMintBox .nftInfo {
+  margin-top: 52px;
+  font-size: 24px;
+  text-align: center;
+  white-space: nowrap;
+}
+.indexBg .nftMintBox .nftInfo:first-child {
+  margin-top: 0;
+}
+.indexBg .nftMintBox .progressBox {
+  margin-top: 36px;
+}
+.indexBg .nftMintBox .progressBox > div span {
+  color: #fff !important;
+}
